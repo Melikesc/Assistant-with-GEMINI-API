@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4DDEF932C16F7F20087362D /* ChatGeminiAssissantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DDEF922C16F7F20087362D /* ChatGeminiAssissantApp.swift */; };
+		A4DDEF952C16F7F20087362D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DDEF942C16F7F20087362D /* ContentView.swift */; };
+		A4DDEF972C16F7F30087362D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DDEF962C16F7F30087362D /* Assets.xcassets */; };
+		A4DDEF9A2C16F7F30087362D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DDEF992C16F7F30087362D /* Preview Assets.xcassets */; };
+		A4DDEFA42C16F7F30087362D /* ChatGeminiAssissantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DDEFA32C16F7F30087362D /* ChatGeminiAssissantTests.swift */; };
+		A4DDEFAE2C16F7F30087362D /* ChatGeminiAssissantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DDEFAD2C16F7F30087362D /* ChatGeminiAssissantUITests.swift */; };
+		A4DDEFB02C16F7F30087362D /* ChatGeminiAssissantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DDEFAF2C16F7F30087362D /* ChatGeminiAssissantUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4DDEFA02C16F7F30087362D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DDEF872C16F7F20087362D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DDEF8E2C16F7F20087362D;
+			remoteInfo = ChatGeminiAssissant;
+		};
+		A4DDEFAA2C16F7F30087362D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DDEF872C16F7F20087362D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DDEF8E2C16F7F20087362D;
+			remoteInfo = ChatGeminiAssissant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4DDEF8F2C16F7F20087362D /* ChatGeminiAssissant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGeminiAssissant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DDEF922C16F7F20087362D /* ChatGeminiAssissantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGeminiAssissantApp.swift; sourceTree = "<group>"; };
+		A4DDEF942C16F7F20087362D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4DDEF962C16F7F30087362D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4DDEF992C16F7F30087362D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4DDEF9F2C16F7F30087362D /* ChatGeminiAssissantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGeminiAssissantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DDEFA32C16F7F30087362D /* ChatGeminiAssissantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGeminiAssissantTests.swift; sourceTree = "<group>"; };
+		A4DDEFA92C16F7F30087362D /* ChatGeminiAssissantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGeminiAssissantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DDEFAD2C16F7F30087362D /* ChatGeminiAssissantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGeminiAssissantUITests.swift; sourceTree = "<group>"; };
+		A4DDEFAF2C16F7F30087362D /* ChatGeminiAssissantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGeminiAssissantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DDEF8C2C16F7F20087362D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DDEF9C2C16F7F30087362D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DDEFA62C16F7F30087362D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4DDEF862C16F7F20087362D = {
+			isa = PBXGroup;
+			children = (
+				A4DDEF912C16F7F20087362D /* ChatGeminiAssissant */,
+				A4DDEFA22C16F7F30087362D /* ChatGeminiAssissantTests */,
+				A4DDEFAC2C16F7F30087362D /* ChatGeminiAssissantUITests */,
+				A4DDEF902C16F7F20087362D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DDEF902C16F7F20087362D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DDEF8F2C16F7F20087362D /* ChatGeminiAssissant.app */,
+				A4DDEF9F2C16F7F30087362D /* ChatGeminiAssissantTests.xctest */,
+				A4DDEFA92C16F7F30087362D /* ChatGeminiAssissantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DDEF912C16F7F20087362D /* ChatGeminiAssissant */ = {
+			isa = PBXGroup;
+			children = (
+				A4DDEF922C16F7F20087362D /* ChatGeminiAssissantApp.swift */,
+				A4DDEF942C16F7F20087362D /* ContentView.swift */,
+				A4DDEF962C16F7F30087362D /* Assets.xcassets */,
+				A4DDEF982C16F7F30087362D /* Preview Content */,
+			);
+			path = ChatGeminiAssissant;
+			sourceTree = "<group>";
+		};
+		A4DDEF982C16F7F30087362D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4DDEF992C16F7F30087362D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4DDEFA22C16F7F30087362D /* ChatGeminiAssissantTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DDEFA32C16F7F30087362D /* ChatGeminiAssissantTests.swift */,
+			);
+			path = ChatGeminiAssissantTests;
+			sourceTree = "<group>";
+		};
+		A4DDEFAC2C16F7F30087362D /* ChatGeminiAssissantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DDEFAD2C16F7F30087362D /* ChatGeminiAssissantUITests.swift */,
+				A4DDEFAF2C16F7F30087362D /* ChatGeminiAssissantUITestsLaunchTests.swift */,
+			);
+			path = ChatGeminiAssissantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DDEF8E2C16F7F20087362D /* ChatGeminiAssissant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DDEFB32C16F7F30087362D /* Build configuration list for PBXNativeTarget "ChatGeminiAssissant" */;
+			buildPhases = (
+				A4DDEF8B2C16F7F20087362D /* Sources */,
+				A4DDEF8C2C16F7F20087362D /* Frameworks */,
+				A4DDEF8D2C16F7F20087362D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatGeminiAssissant;
+			productName = ChatGeminiAssissant;
+			productReference = A4DDEF8F2C16F7F20087362D /* ChatGeminiAssissant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4DDEF9E2C16F7F30087362D /* ChatGeminiAssissantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DDEFB62C16F7F30087362D /* Build configuration list for PBXNativeTarget "ChatGeminiAssissantTests" */;
+			buildPhases = (
+				A4DDEF9B2C16F7F30087362D /* Sources */,
+				A4DDEF9C2C16F7F30087362D /* Frameworks */,
+				A4DDEF9D2C16F7F30087362D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DDEFA12C16F7F30087362D /* PBXTargetDependency */,
+			);
+			name = ChatGeminiAssissantTests;
+			productName = ChatGeminiAssissantTests;
+			productReference = A4DDEF9F2C16F7F30087362D /* ChatGeminiAssissantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4DDEFA82C16F7F30087362D /* ChatGeminiAssissantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DDEFB92C16F7F30087362D /* Build configuration list for PBXNativeTarget "ChatGeminiAssissantUITests" */;
+			buildPhases = (
+				A4DDEFA52C16F7F30087362D /* Sources */,
+				A4DDEFA62C16F7F30087362D /* Frameworks */,
+				A4DDEFA72C16F7F30087362D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DDEFAB2C16F7F30087362D /* PBXTargetDependency */,
+			);
+			name = ChatGeminiAssissantUITests;
+			productName = ChatGeminiAssissantUITests;
+			productReference = A4DDEFA92C16F7F30087362D /* ChatGeminiAssissantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DDEF872C16F7F20087362D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A4DDEF8E2C16F7F20087362D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A4DDEF9E2C16F7F30087362D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A4DDEF8E2C16F7F20087362D;
+					};
+					A4DDEFA82C16F7F30087362D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A4DDEF8E2C16F7F20087362D;
+					};
+				};
+			};
+			buildConfigurationList = A4DDEF8A2C16F7F20087362D /* Build configuration list for PBXProject "ChatGeminiAssissant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4DDEF862C16F7F20087362D;
+			productRefGroup = A4DDEF902C16F7F20087362D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DDEF8E2C16F7F20087362D /* ChatGeminiAssissant */,
+				A4DDEF9E2C16F7F30087362D /* ChatGeminiAssissantTests */,
+				A4DDEFA82C16F7F30087362D /* ChatGeminiAssissantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4DDEF8D2C16F7F20087362D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DDEF9A2C16F7F30087362D /* Preview Assets.xcassets in Resources */,
+				A4DDEF972C16F7F30087362D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DDEF9D2C16F7F30087362D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DDEFA72C16F7F30087362D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DDEF8B2C16F7F20087362D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DDEF952C16F7F20087362D /* ContentView.swift in Sources */,
+				A4DDEF932C16F7F20087362D /* ChatGeminiAssissantApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DDEF9B2C16F7F30087362D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DDEFA42C16F7F30087362D /* ChatGeminiAssissantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DDEFA52C16F7F30087362D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DDEFAE2C16F7F30087362D /* ChatGeminiAssissantUITests.swift in Sources */,
+				A4DDEFB02C16F7F30087362D /* ChatGeminiAssissantUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4DDEFA12C16F7F30087362D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DDEF8E2C16F7F20087362D /* ChatGeminiAssissant */;
+			targetProxy = A4DDEFA02C16F7F30087362D /* PBXContainerItemProxy */;
+		};
+		A4DDEFAB2C16F7F30087362D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DDEF8E2C16F7F20087362D /* ChatGeminiAssissant */;
+			targetProxy = A4DDEFAA2C16F7F30087362D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4DDEFB12C16F7F30087362D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4DDEFB22C16F7F30087362D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4DDEFB42C16F7F30087362D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatGeminiAssissant/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikesultancan.ChatGeminiAssissant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4DDEFB52C16F7F30087362D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatGeminiAssissant/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikesultancan.ChatGeminiAssissant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4DDEFB72C16F7F30087362D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikesultancan.ChatGeminiAssissantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatGeminiAssissant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatGeminiAssissant";
+			};
+			name = Debug;
+		};
+		A4DDEFB82C16F7F30087362D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikesultancan.ChatGeminiAssissantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatGeminiAssissant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatGeminiAssissant";
+			};
+			name = Release;
+		};
+		A4DDEFBA2C16F7F30087362D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikesultancan.ChatGeminiAssissantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatGeminiAssissant;
+			};
+			name = Debug;
+		};
+		A4DDEFBB2C16F7F30087362D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikesultancan.ChatGeminiAssissantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatGeminiAssissant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DDEF8A2C16F7F20087362D /* Build configuration list for PBXProject "ChatGeminiAssissant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DDEFB12C16F7F30087362D /* Debug */,
+				A4DDEFB22C16F7F30087362D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DDEFB32C16F7F30087362D /* Build configuration list for PBXNativeTarget "ChatGeminiAssissant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DDEFB42C16F7F30087362D /* Debug */,
+				A4DDEFB52C16F7F30087362D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DDEFB62C16F7F30087362D /* Build configuration list for PBXNativeTarget "ChatGeminiAssissantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DDEFB72C16F7F30087362D /* Debug */,
+				A4DDEFB82C16F7F30087362D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DDEFB92C16F7F30087362D /* Build configuration list for PBXNativeTarget "ChatGeminiAssissantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DDEFBA2C16F7F30087362D /* Debug */,
+				A4DDEFBB2C16F7F30087362D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4DDEF872C16F7F20087362D /* Project object */;
+}
